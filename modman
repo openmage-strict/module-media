@@ -1,0 +1,3 @@
+src/app/code/core/Mage/Media/               app/code/core/Mage/Media/
+src/app/etc/modules/Mage_Media.xml          app/etc/modules/Mage_Media.xml
+src/app/locale/en_US/Mage_Media.csv         app/locale/en_US/Mage_Media.csv
