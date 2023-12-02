@@ -135,6 +135,8 @@ class Mage_Media_Model_Image extends Mage_Core_Model_Abstract
     /**
      * @param bool $useParams
      * @return string
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public function getFilePath($useParams = false)
     {
@@ -151,6 +153,8 @@ class Mage_Media_Model_Image extends Mage_Core_Model_Abstract
     /**
      * @param bool $useParams
      * @return string
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public function getFileUrl($useParams = false)
     {

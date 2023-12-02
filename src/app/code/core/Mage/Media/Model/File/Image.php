@@ -50,6 +50,8 @@ class Mage_Media_Model_File_Image extends Mage_Core_Model_Resource_Abstract
      * @param mixed $file
      * @param mixed|null $field
      * @return $this
+     *
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function load(Mage_Media_Model_Image $object, $file, $field = null)
     {
@@ -60,6 +62,8 @@ class Mage_Media_Model_File_Image extends Mage_Core_Model_Resource_Abstract
     /**
      * @param Mage_Media_Model_Image $object
      * @return $this
+     *
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function save(Mage_Media_Model_Image $object)
     {
@@ -70,6 +74,8 @@ class Mage_Media_Model_File_Image extends Mage_Core_Model_Resource_Abstract
     /**
      * @param Mage_Media_Model_Image $object
      * @return $this
+     *
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function delete(Mage_Media_Model_Image $object)
     {
@@ -155,6 +161,8 @@ class Mage_Media_Model_File_Image extends Mage_Core_Model_Resource_Abstract
      *
      * @param Mage_Media_Model_Image $object
      * @return $this
+     *
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function watermark(Mage_Media_Model_Image $object)
     {
